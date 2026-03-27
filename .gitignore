@@ -1,0 +1,34 @@
+# macOS / OS junk
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local large datasets and external data drops
+saved_features/
+validation_data/
+
+# Generated artifacts / temporary outputs
+*.npy
+*.npz
+*.pkl
+*.tar
+*.onnx
+*.mlmodel
+
+# Explicit local artifacts (already covered above, kept for clarity)
+concept_vectors.pkl
+y.npy
+z.npy
+Z.npy
+
+
+
