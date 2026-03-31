@@ -49,15 +49,24 @@ Video Frames
 
 ---
 
+## Task 4
+* Ablation study is done on diffrent configurations
+
 # 📂 Project Structure
 
 ```id="projstruct"
+# 📂 Project Structure
+
+```text
 .
 ├── task1/
 │   └── anomaly-detection.ipynb        # Task 1 (Kaggle training pipeline)
 │
 ├── task3/
 │   └── task3.ipynb                   # Concept steering (no retraining)
+│
+├── task4/
+│   └── task4.ipynb                   # Ablation study (FPS, window, threshold)
 │
 ├── task5/
 │   └── task5.ipynb                   # Robustness evaluation
